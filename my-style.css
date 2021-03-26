@@ -1,0 +1,120 @@
+p {
+	color: black; 
+	font-size: 25px;
+}
+
+
+h2 { 
+	color: #048544;
+	font-size: 30px;
+} 
+
+h3 {
+	color: #048544;
+	font-size: 30px;
+}
+
+h4 {
+	color:#048544;
+	font-size: 30px;
+}
+
+h5 {
+	color: #048544;
+	font-size: 30px;
+}
+
+ol { 
+	color:#ff9a73
+	font-size:100%
+	font-family:"fantasy" 
+} 
+
+nav ul li {
+	list-style-type: none; 
+	display: inline;
+	margin-left: 10px; 
+	margin-right: 10px;
+}
+ 
+nav ul {
+	border-style:outset;
+	border-width:2px; 
+	border-color:white;
+	border-radius:10px;
+	padding: 10px;
+} 
+
+.para {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #ff9e78;
+	margin-left: 10px; 
+	margin-right: 10px;
+	margin: 10 auto; 
+	padding: 20px;
+}
+
+.gallery-pic {
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+	filter: drop-shadow(8px 8px 10px #ff9a8f); 
+	border-style: solid;
+	border-width: 10px;
+	border-color: white; 
+	margin: 0 auto; 
+	border-left: 20px solid white;
+	border-right: 20px solid white; 
+	border-top: 25px solide white;
+	border-bottom: 70px solid white;
+	 
+} 
+
+.row {
+	display: flex;
+	padding: 10px; 
+	text-align: center; 
+}
+
+.column {
+	flex: 50%;
+	padding: 60px;
+	text-align: center; 
+}
+
+.pic-1 {
+	filter: brightness(75%) contrast(110%);
+	width: 400px;
+	height: 400px; 
+	object-fit: cover; 
+}
+
+.pic-2 {
+	filter: brightness(75%) contrast(110%);
+	width: 400px;
+	height: 400px; 
+	object-fit: cover;
+}
+
+.pic-3 {
+	filter: brightness(75%) contrast(110%);
+	width: 400px;
+	height: 400px; 
+	object-fit: cover;
+}
+
+.pic-4 {
+	filter: brightness(75%) contrast(110%);
+	width: 400px;
+	height: 400px; 
+	object-fit: cover;
+}
+
+.caption {
+	color: white; 
+	position: relative; 
+	top: -50px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin: 0 0 -100px 0; 
+}
